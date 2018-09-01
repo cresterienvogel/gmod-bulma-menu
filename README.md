@@ -1,6 +1,6 @@
 # What is it
 This is a very simple reskin of Garry's mod main menu.
-It's also "fixes" fonts in server browser and make them better then previous.
+It's also "fixes" fonts in server browser and makes them better then previous.
 
 # How to setup
 1) Download and unpack in D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod
