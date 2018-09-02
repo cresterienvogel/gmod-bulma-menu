@@ -13,3 +13,5 @@ It's also "fixes" fonts in server browser and makes them better then previous.
 ![server browser](https://i.imgur.com/ZjOL45T.jpg)
 
 ![server browser](https://i.imgur.com/MaICeyl.jpg)
+
+![on server](https://i.imgur.com/gIXjMcS.jpg)
