@@ -10,7 +10,7 @@ It's also "fixes" fonts in server browser and makes them better then previous.
 
 ![main menu](https://i.imgur.com/JooA78c.jpg)
 
-![server browser](https://i.imgur.com/ZjOL45T.jpg)
+![server browser](https://i.imgur.com/XkxHEOB.jpg)
 
 ![server browser](https://i.imgur.com/MaICeyl.jpg)
 
