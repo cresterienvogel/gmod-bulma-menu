@@ -14,4 +14,4 @@ It's also "fixes" fonts in server browser and makes them better then previous.
 
 ![server browser](https://i.imgur.com/MaICeyl.jpg)
 
-![on server](https://i.imgur.com/gIXjMcS.jpg)
+![on server](https://i.imgur.com/w3UP9v9.jpg)
