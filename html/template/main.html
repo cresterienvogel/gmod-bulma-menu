@@ -7,18 +7,18 @@
 				<li>&nbsp;</li>
 				<li ng-show="InGame"><a ng-click="BackToGame()" ng-Tranny="'resume_game'"></a></li>
 				<li ng-show="InGame">&nbsp;</li>
-				<li><a ng-href="#/newgame/" ng-Tranny="'new_game'"></a></li>
+				<li class="smallicon"><img height="25px" width="25px" ng-src='img/new_play.png'> <a ng-href="#/newgame/" ng-Tranny="'new_game'"></a></li>
 
-				<li><a ng-href="#/servers/" ng-Tranny="'find_mp_game'"></a></li>
-
-				<li>&nbsp;</li>
-				<li><a ng-click="MenuOption( this, 'OpenOptionsDialog')" ng-Tranny="'options'"></a></li>
+				<li class="smallicon"><img height="25px" width="25px" ng-src='img/new_play.png'> <a ng-href="#/servers/" ng-Tranny="'find_mp_game'"></a></li>
 
 				<li>&nbsp;</li>
-				<li ng-show="InGame">
+				<li class="smallicon"><img height="25px" width="25px" ng-src='img/new_settings.png'> <a ng-click="MenuOption( this, 'OpenOptionsDialog')" ng-Tranny="'options'"></a></li>
+
+				<li>&nbsp;</li>
+				<li ng-show="InGame" class="smallicon"><img height="25px" width="25px" ng-src='img/new_exit.png'> 
 					<a ng-click="MenuOption( this, 'engine disconnect');" ng-Tranny="'disconnect'"></a>
 				</li>
-				<li><a ng-click="MenuOption( this, 'Quit')" ng-Tranny="'quit'"></a></li>
+				<li class="smallicon"><img height="25px" width="25px" ng-src='img/new_exit.png'> <a ng-click="MenuOption( this, 'Quit')" ng-Tranny="'quit'"></a></li>
 
 			</ul>
 
