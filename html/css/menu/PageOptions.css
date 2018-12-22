@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 DIV.page DIV.options
 {
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 320px;
+	width: 400px;
 	bottom: 0px;
 	padding-top: 30%;
-	padding-left: 50px;
+	padding-left: 25px;
 }
 
 DIV.page DIV.innerpage
@@ -40,12 +41,14 @@ DIV.page DIV.options UL LI
 
 DIV.page DIV.options, DIV.page DIV.options A
 {
-	font-size: 27px;
-	letter-spacing: -1.0px;
-	text-decoration: none;
+	font-size: 28px;
+	font-family: "Roboto", "Arial";
 	color: #fff;
-	font-weight: 500;
-	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+	font-weight: 550;
+	opacity: 0.999999;
+	text-shadow: 0px 0px 0px black, 0px 0px 1px black, 0px 0px 2px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+	word-break: break-word;
+	overflow-x: hidden;	
 }
 
 DIV.page DIV.options .submenu A, DIV.page DIV.options .submenu LABEL
@@ -64,7 +67,7 @@ DIV.page DIV.options UL.submenu LI
 
 DIV.page DIV.options A:hover
 {
-	color: #617aff;
+	color: #0057b8;
 }
 
 DIV.page DIV.options.active, DIV.page DIV.options A.active
