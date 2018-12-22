@@ -11,10 +11,10 @@ It's also "fixes" fonts in server browser and makes them better and smooth.
 
 # Preview
 
-![main menu](https://i.imgur.com/TaYMUmH.jpg)
+![main menu](https://i.imgur.com/2EhrF7j.jpg)
 
-![server browser](https://i.imgur.com/nIZxZ8f.jpg)
+![server browser](https://i.imgur.com/owDyEUJ.jpg)
 
-![server browser](https://i.imgur.com/Dsv4FUv.jpg)
+![server browser](https://i.imgur.com/UiGX8Z9.png)
 
-![on server](https://i.imgur.com/T1iL2wu.jpg)
+![on server](https://i.imgur.com/WlSLjCY.jpg)
