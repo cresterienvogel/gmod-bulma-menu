@@ -3,6 +3,9 @@
 		<ul>
 			<li><h2 ng-tranny="'addons'"></h2></li>
 
+			<li><a ng-click="OpenWorkshop()" ng-Tranny="'addons.openworkshop'"></a></li>
+			<li>&nbsp;</li>			
+			
 			<li>
 				<a class="{{IfElse( Category == 'subscribed', 'active', '' )}}" ng-click="Switch( 'subscribed', 0 )" ng-Tranny="'addons.subscribed'"></a>
 				<ul ng-show="Category == 'subscribed'" class="submenu">
@@ -36,34 +39,6 @@
 					</container>
 				</ul>
 			</li>
-
-			<li>&nbsp;</li>
-
-			<li ng-repeat="cat in Categories" class="clickable {{IfElse( Category == cat, 'active', 'notactive' )}}">
-				<a ng-click="SwitchWithTag( cat, 0, 'Addon' )" ng-Tranny="'addons.'+cat" ng-show="cat != ''" class="{{IfElse( Category == cat, 'active', 'notactive' )}}"></a>
-
-				<ul ng-show="Category == cat">
-					<li ng-repeat="tag in AddonTypes" class="clickable {{IfElse( Tagged == tag, 'active', 'notactive' )}}">
-						<a ng-click="SwitchWithTag( cat, 0, tag )" ng-Tranny="'addons.'+tag" ng-show="tag != ''" class="{{IfElse( Tagged == tag, 'active', 'notactive' )}}">{{subcat}}</a>
-					</li>
-				</ul>
-			</li>
-
-			<li>&nbsp;</li>
-
-			<li ng-repeat="cat in CategoriesSecondary" class="clickable {{IfElse( Category == cat, 'active', 'notactive' )}}">
-				<a ng-click="SwitchWithTag( cat, 0, 'Addon' )" ng-Tranny="'addons.' + cat" ng-show="cat != ''" class="{{IfElse( Category == cat, 'active', 'notactive' )}}"></a>
-
-				<ul ng-show="Category == cat">
-					<li ng-repeat="tag in AddonTypes" class="clickable {{IfElse( Tagged == tag, 'active', 'notactive' )}}">
-						<a ng-click="SwitchWithTag( cat, 0, tag )" ng-Tranny="'addons.'+tag" ng-show="tag != ''" class="{{IfElse( Tagged == tag, 'active', 'notactive' )}}">{{subcat}}</a>
-					</li>
-				</ul>
-			</li>
-
-			<li>&nbsp;</li>
-
-			<li><a ng-click="OpenWorkshop()" ng-Tranny="'addons.openworkshop'"></a></li>
 		</ul>
 	</div>
 
