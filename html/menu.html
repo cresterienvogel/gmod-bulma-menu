@@ -5,6 +5,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/menu/Menu.css" />
 	<link rel="stylesheet" type="text/css" href="css/menu/NavBar.css" />
+	<link rel="stylesheet" type="text/css" href="css/menu/LowBar.css" />	
 	<link rel="stylesheet" type="text/css" href="css/menu/PageOptions.css" />
 	<link rel="stylesheet" type="text/css" href="css/menu/AddonOptions.css" />
 	<link rel="stylesheet" type="text/css" href="css/menu/NewGame.css" />
@@ -66,6 +67,16 @@
 	</ul>
 
 </div>
+	
+<div id="LowBar">
+
+	<div class="left" ng-show="ShowBack">
+
+		<a href="#/" class="button ui_sound_return"><img src='img/back_to_main_menu.png'><span ng-Tranny="'back_to_main_menu'">></span></a>
+
+	</div>
+	
+</div>	
 
 <ul class="gamemode_list popup">
 	<li ng-repeat="gm in Gamemodes|filter:{menusystem:true}|orderBy:'name'" ng-click="SelectGamemode( gm )">
