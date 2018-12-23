@@ -14,7 +14,7 @@
 				<li ng-hide="CurrentGamemode != null"><a ng-hide="Refreshing[ ServerType ] == 'true'" ng-tranny="'servers_refresh'" ng-click="Refresh()">refresh</a></li>
 				<li ng-hide="CurrentGamemode != null"><a ng-hide="Refreshing[ ServerType ] == 'false'" ng-tranny="'servers_stoprefresh'" ng-click="DoStopRefresh()">Stop refresh</a></li>
 				<li>&nbsp;</li>					
-				<li><a ng-click="MenuOption( this, 'OpenServerBrowser')" ng-Tranny="'legacy_browser'"></a></li>
+				<li ng-hide="CurrentGamemode != null"><a ng-click="MenuOption( this, 'OpenServerBrowser')" ng-Tranny="'legacy_browser'"></a></li>
 
 			</ul>
 
