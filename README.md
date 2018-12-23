@@ -7,7 +7,7 @@ It's also "fixes" fonts in server browser and makes them better and smooth.
 2) The end :v
 
 # Changelogs
-23.12.18 - icons and smooth font and shadow
+23.12.18 - icons, addons, smooth font and shadow
 
 # Preview
 
