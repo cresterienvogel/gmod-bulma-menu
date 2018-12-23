@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+DIV.page DIV.options_addons
+{
+	position: absolute;
+	left: 0;
+	top: 35px;
+	width: 400px;
+	bottom: 0px;
+	padding-left: 25px;
+}
+
+DIV.page DIV.innerpage
+{
+	position: absolute;
+	left: 300px;
+	top: 16px;
+	bottom: 16px;
+	right: 16px;
+	padding: 16px;
+	padding-top: 0;
+}
+
+div.options_addons h2 {
+	margin-top: 0px;
+}
+
+DIV.page DIV.options_addons UL
+{
+	list-style-type: none;
+	padding: 2px 0px;
+	margin-left: 20px;
+}
+
+DIV.page DIV.options_addons UL LI
+{
+	padding: 0px 16px;
+	margin-bottom: 1px;
+}
+
+DIV.page DIV.options_addons, DIV.page DIV.options_addons A
+{
+	font-size: 28px;
+	font-family: "Roboto", "Arial";
+	color: #fff;
+	font-weight: 550;
+	opacity: 0.999999;
+	text-shadow: 0px 0px 0px black, 0px 0px 1px black, 0px 0px 2px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+	word-break: break-word;
+	overflow-x: hidden;	
+}
+
+DIV.page DIV.options_addons .submenu A, DIV.page DIV.options_addons .submenu LABEL
+{
+	font-size: 17px;
+	letter-spacing: 0px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+DIV.page DIV.options_addons UL.submenu LI
+{
+	padding: 0;
+	margin: 0;
+	margin-bottom: -4px;
+}
+
+DIV.page DIV.options_addons A:hover
+{
+	color: #0057b8;
+}
+
+DIV.page DIV.options_addons.active, DIV.page DIV.options_addons A.active
+{
+	color: #2e4dff;
+}
+
+DIV.page DIV.options_addons .search_bar
+{
+	padding: 2px 4px;
+	box-sizing: border-box;
+	margin-top: 12px;
+	margin-bottom: 8px;
+}
+
+@media screen and (max-height: 768px) {
+	DIV.page DIV.options_addons UL.submenu LI
+	{
+		margin-bottom: -8px;
+	}
+}
+
+@media screen and (max-width: 1280px)
+{
+	DIV.page DIV.options_addons
+	{
+		width: 250px;
+		font-size: 70%;
+	}	
+
+	DIV.page DIV.innerpage
+	{
+		left: 250px;
+	}
+
+	DIV.page DIV.options_addons, DIV.page DIV.options_addons A
+	{
+		font-size: 16px;
+	}	
+
+	DIV.page DIV.options_addons UL.submenu LI
+	{
+		margin-bottom: -4px;
+	}	
+}
+
+@media screen and (max-height: 580px) {
+	DIV.page DIV.options_addons
+	{
+		padding-top: 0px;
+	}	
+
+	DIV.page DIV.options_addons UL
+	{
+		padding: 0px;
+	}	
+
+	DIV.page DIV.options_addons UL LI
+	{
+		margin-bottom: 0px;
+	}	
+
+	DIV.page DIV.options_addons, DIV.page DIV.options_addons A
+	{
+		font-size: 20px;
+		line-height: 19px;
+	}	
+}
+
+@media screen and (max-height: 420px) {
+	DIV.page DIV.options_addons UL
+	{
+		margin: 0px;
+	}	
+
+	DIV.page DIV.options_addons UL li img
+	{
+		display: none;
+	}	
+}
