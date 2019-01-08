@@ -3,7 +3,7 @@ This is a very simple reskin of Garry's mod main menu.
 It's also "fixes" fonts in server browser and makes them better and smooth.
 
 # How to setup
-1) Download and unpack in D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod
+1) Download and unpack in D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons
 2) The end :v
 
 # Changelogs
