@@ -1,4 +1,4 @@
-# How to setup
+# Installation
 Just drop it to the addons folder.
 
 # Preview
