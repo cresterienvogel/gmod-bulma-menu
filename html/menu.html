@@ -1,0 +1,111 @@
+<html>
+	<head>
+		<title>Garry's Mod Main Menu</title>
+
+		<link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+		<script type="text/javascript" src="js/lua.js"></script>
+
+		<script type="text/javascript" src="js/thirdparty/jquery.js"></script>
+		<script type="text/javascript" src="js/thirdparty/jquery-color.js"></script>
+		<script type="text/javascript" src="js/thirdparty/angular.js"></script>
+		<script type="text/javascript" src="js/thirdparty/angular-ui.js"></script>
+
+		<script type="text/javascript" src="js/menu/Subscriptions.js"></script>
+		<script type="text/javascript" src="js/menu/menuApp.js?2"></script>
+		<script type="text/javascript" src="js/menu/control.Menu.js?2"></script>
+		<script type="text/javascript" src="js/menu/control.Main.js?2"></script>
+		<script type="text/javascript" src="js/menu/control.Servers.js"></script>
+
+		<script type="text/javascript" src="js/svc.Tranny.js"></script>
+	</head>
+
+	<body ng-app="MenuApp" ng-controller="MenuController">
+		<nav class="navbar" style="box-shadow: 0 2px 4px rgba(0, 0, 0, .3);">
+			<div class="container">
+			  <div class="navbar-brand">
+				<a ng-show="InGame" ng-click="BackToGame()" class="navbar-item">
+					<i class="fa fa-chevron-left has-text-dark" aria-hidden="true"></i>
+				</a>	
+
+				<p class="news navbar-item is-size-4">
+					Garry's mod <i target="_blank" class="fa fa-heart has-text-danger dropdown-trigger" aria-hidden="true"></i>
+				</p> 
+			  
+				</div>
+				  <div id="navbarMenu" class="navbar-menu" ng-controller="ControllerMain">
+					<div class="navbar-end">
+						<div class="dropdown is-hoverable is-down is-right navbar-item">
+							<div class="dropdown-trigger">
+							  <a aria-haspopup="true" aria-controls="dropdown-menu4">
+								<i class="fa fa-info has-text-dark" aria-hidden="true"></i>
+							  </a>
+							</div>
+							<div class="dropdown-menu" id="dropdown-menu4" role="menu">
+							  <div class="dropdown-content">
+								<div class="dropdown-item">
+								  <p class="has-text-dark is-size-7">Author: <strong class="has-text-dark"><a>crester</a></strong></p>
+								  <p class="has-text-dark is-size-7">Framework: <strong class="has-text-dark"><a>Bulma</a></strong></p>
+								  <p class="has-text-dark is-size-7">Design: <strong class="has-text-dark"><a>XenPare</a></strong></p>
+								</div>
+							  </div>
+							</div>
+						</div>
+
+						<a ng-click="MenuOption(this, 'OpenServerBrowser')" class="navbar-item">
+							<i class="fa fa-gamepad has-text-dark" aria-hidden="true"></i>
+							<p ng-Tranny="'find_mp_game'"></p>
+						</a>
+
+						<div class="navbar-item has-dropdown is-hoverable">
+							<a ng-click="MenuOption(this, 'OpenOptionsDialog')" class="navbar-link">
+								<i class="fa fa-cog has-text-dark" aria-hidden="true"></i>
+								<p ng-Tranny="'options'"></p>
+							</a>
+							<div class="navbar-dropdown">
+							  <a ng-click="SelectLanguage('en')" class="navbar-item">
+								<i class="fa fa-globe has-text-dark" aria-hidden="true"></i>
+								English
+							  </a>
+							  <a ng-click="SelectLanguage('fr')" class="navbar-item">
+								<i class="fa fa-globe has-text-dark" aria-hidden="true"></i>
+								Français
+							  </a>
+							  <a ng-click="SelectLanguage('de')" class="navbar-item">
+								<i class="fa fa-globe has-text-dark" aria-hidden="true"></i>
+								Deutsch
+							  </a>
+							  <a ng-click="SelectLanguage('ru')" class="navbar-item">
+								<i class="fa fa-globe has-text-dark" aria-hidden="true"></i>
+								Русский
+							  </a>
+							  <a ng-click="SelectLanguage('zh-CN')" class="navbar-item">
+								<i class="fa fa-globe has-text-dark" aria-hidden="true"></i>
+								中文
+							  </a>
+							  <a ng-click="SelectLanguage('ja')" class="navbar-item">
+								<i class="fa fa-globe has-text-dark" aria-hidden="true"></i>
+								日本人
+							  </a>
+							</div>
+						</div>
+
+						<a ng-show="InGame" ng-click="MenuOption(this, 'engine disconnect');" class="navbar-item">
+							<i class="fa fa-window-close has-text-dark" aria-hidden="true"></i>
+							<p ng-Tranny="'disconnect'"></p>
+						</a>
+
+					  	<a ng-click="MenuOption(this, 'Quit')" class="navbar-item">
+							<i class="fa fa-sign-out has-text-dark" aria-hidden="true"></i>
+							<p ng-Tranny="'quit'"></p>
+						</a>
+					</div>
+				  </div>
+				</div>
+			</div>
+		</nav>	
+	</body>
+</html>
