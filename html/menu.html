@@ -26,32 +26,31 @@
 	<body ng-app="MenuApp" ng-controller="MenuController">
 		<nav class="navbar" style="box-shadow: 0 2px 4px rgba(0, 0, 0, .3);">
 			<div class="container">
-			  <div class="navbar-brand">
-				<a ng-show="InGame" ng-click="BackToGame()" class="navbar-item">
-					<i class="fa fa-chevron-left has-text-dark" aria-hidden="true"></i>
-				</a>	
+				<div class="navbar-brand">
+					<a ng-show="InGame" ng-click="BackToGame()" class="navbar-item">
+						<i class="fa fa-chevron-left has-text-dark" aria-hidden="true"></i>
+					</a>	
 
-				<p class="news navbar-item is-size-4">
-					Garry's mod <i target="_blank" class="fa fa-heart has-text-danger dropdown-trigger" aria-hidden="true"></i>
-				</p> 
-			  
+					<p class="news navbar-item is-size-4">
+						Garry's mod <i target="_blank" class="fa fa-heart has-text-danger dropdown-trigger" aria-hidden="true"></i>
+					</p> 
 				</div>
-				  <div id="navbarMenu" class="navbar-menu" ng-controller="ControllerMain">
+				<div id="navbarMenu" class="navbar-menu" ng-controller="ControllerMain">
 					<div class="navbar-end">
 						<div class="dropdown is-hoverable is-down is-right navbar-item">
 							<div class="dropdown-trigger">
-							  <a aria-haspopup="true" aria-controls="dropdown-menu4">
-								<i class="fa fa-info has-text-dark" aria-hidden="true"></i>
-							  </a>
+								<a aria-haspopup="true" aria-controls="dropdown-menu4">
+									<i class="fa fa-info has-text-dark" aria-hidden="true"></i>
+								</a>
 							</div>
 							<div class="dropdown-menu" id="dropdown-menu4" role="menu">
-							  <div class="dropdown-content">
-								<div class="dropdown-item">
-								  <p class="has-text-dark is-size-7">Author: <strong class="has-text-dark"><a>crester</a></strong></p>
-								  <p class="has-text-dark is-size-7">Framework: <strong class="has-text-dark"><a>Bulma</a></strong></p>
-								  <p class="has-text-dark is-size-7">Design: <strong class="has-text-dark"><a>XenPare</a></strong></p>
-								</div>
-							  </div>
+								<div class="dropdown-content">
+									<div class="dropdown-item">
+								  	<p class="has-text-dark is-size-7">Author: <strong class="has-text-dark"><a>crester</a></strong></p>
+								  	<p class="has-text-dark is-size-7">Framework: <strong class="has-text-dark"><a>Bulma</a></strong></p>
+								  	<p class="has-text-dark is-size-7">Design: <strong class="has-text-dark"><a>XenPare</a></strong></p>
+									</div>
+							  	</div>
 							</div>
 						</div>
 
@@ -66,30 +65,30 @@
 								<p ng-Tranny="'options'"></p>
 							</a>
 							<div class="navbar-dropdown">
-							  <a ng-click="SelectLanguage('en')" class="navbar-item ui_sound_return">
+							<a ng-click="SelectLanguage('en')" class="navbar-item ui_sound_return">
 								<i class="fa fa-globe has-text-dark" aria-hidden="true"></i>
 								English
-							  </a>
-							  <a ng-click="SelectLanguage('fr')" class="navbar-item ui_sound_return">
+							</a>
+							<a ng-click="SelectLanguage('fr')" class="navbar-item ui_sound_return">
 								<i class="fa fa-globe has-text-dark" aria-hidden="true"></i>
 								Français
-							  </a>
-							  <a ng-click="SelectLanguage('de')" class="navbar-item ui_sound_return">
+							</a>
+							<a ng-click="SelectLanguage('de')" class="navbar-item ui_sound_return">
 								<i class="fa fa-globe has-text-dark" aria-hidden="true"></i>
 								Deutsch
-							  </a>
-							  <a ng-click="SelectLanguage('ru')" class="navbar-item ui_sound_return">
+							</a>
+							<a ng-click="SelectLanguage('ru')" class="navbar-item ui_sound_return">
 								<i class="fa fa-globe has-text-dark" aria-hidden="true"></i>
 								Русский
-							  </a>
-							  <a ng-click="SelectLanguage('zh-CN')" class="navbar-item ui_sound_return">
+							</a>
+							<a ng-click="SelectLanguage('zh-CN')" class="navbar-item ui_sound_return">
 								<i class="fa fa-globe has-text-dark" aria-hidden="true"></i>
 								中文
-							  </a>
-							  <a ng-click="SelectLanguage('ja')" class="navbar-item ui_sound_return">
+							</a>
+							<a ng-click="SelectLanguage('ja')" class="navbar-item ui_sound_return">
 								<i class="fa fa-globe has-text-dark" aria-hidden="true"></i>
 								日本人
-							  </a>
+							</a>
 							</div>
 						</div>
 
@@ -103,7 +102,6 @@
 							<p ng-Tranny="'quit'"></p>
 						</a>
 					</div>
-				  </div>
 				</div>
 			</div>
 		</nav>	
